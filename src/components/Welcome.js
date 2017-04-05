@@ -111,7 +111,7 @@ class Welcome extends React.Component {
               callback={this.responseFacebook}
               icon="fa-facebook"
               cssClass="facebookbtn"
-              textButton = " Login with Facebook"
+              textButton = "| Login with Facebook"
                />
             <GoogleLogin
               clientId="862765406840-becil6hhhlsoi01tokb673lpol5odret.apps.googleusercontent.com"
@@ -120,7 +120,7 @@ class Welcome extends React.Component {
               onFailure={this.responseGoogle}
             >
               <FontAwesome name="google"/>
-              <span> Login with Google</span>
+              <span>| Login with Google</span>
             </GoogleLogin>
             </div>
           </Well>
