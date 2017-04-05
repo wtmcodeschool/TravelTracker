@@ -13,18 +13,29 @@ class About extends React.Component {
     return (
       <Col xs={12}>
         <h2>About TravelTracker</h2>
-        <h4>Thank you very much to all the
-          technologies that made this project possible
+        <h4>This project was built on the backs of giants.
+          We would like to extend a thank to all the
+          technologies and artists that made this project possible.
         </h4>
-        <ul>
-          <li>NodeJS</li>
-          <li>React</li>
-          <li>Express</li>
-          <li>Mobx</li>
-          <li>Webpack</li>
-          <li>Datamaps</li>
-          <li>Piecharts</li>
-        </ul>
+        <Col xs={6}>
+        <h5>List of technologies: </h5>
+          <ul>
+            <li><a href="https://nodejs.org/en/">NodeJS</a></li>
+            <li><a href="https://facebook.github.io/react/">React</a></li>
+            <li><a href="https://expressjs.com/">Express</a></li>
+            <li><a href="https://mobx.js.org/">Mobx</a></li>
+            <li><a href="https://webpack.js.org/">Webpack</a></li>
+            <li><a href="https://babeljs.io/">Babel</a></li>
+            <li><a href="https://github.com/btmills/react-datamaps">React Datamaps</a></li>
+            <li><a href="https://github.com/brigade/react-simple-pie-chart">React Simple Piechart</a></li>
+          </ul>
+        </Col>
+        <Col xs={6}>
+        <h5>Graphic work from: </h5>
+          <ul>
+            <li/>
+          </ul>
+        </Col>
       </Col>
     );
   }
